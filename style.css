@@ -412,6 +412,7 @@ article .icon {
   padding-bottom: 2rem;
   margin: 0 10rem; /* Adjusted margin to match other sections */
   box-sizing: border-box; /* Ensuring padding and border are included in the width */
+  justify-content: center;
 }
 
 .color-container {
@@ -445,6 +446,7 @@ article .icon {
   padding-bottom: 2rem;
   margin: 0 10rem; /* Adjusted margin to match other sections */
   box-sizing: border-box; /* Ensuring padding and border are included in the width */
+  justify-content: center;
 }
 
 .color-container {
