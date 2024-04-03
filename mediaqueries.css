@@ -96,4 +96,11 @@
   .text-container {
     text-align: justify;
   }
+  .details-container {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .project-img {
+    width: 100%; /* Full width for images on small screens */
+  }
 }
