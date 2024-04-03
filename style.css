@@ -414,7 +414,9 @@ article .icon {
   box-sizing: border-box; /* Ensuring padding and border are included in the width */
   justify-content: center;
 }
-
+.about-container {
+  justify-content: center;
+}
 .color-container {
   border-color: var(--container-border);
   background: var(--primary-color-2);
