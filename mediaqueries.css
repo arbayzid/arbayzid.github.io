@@ -104,6 +104,7 @@
   }
   .details-container {
     text-align: center;
+    width: 360px; /* Set your desired fixed width here */
   }
   .experience-details-container .article-container {
     width: 360px; /* Set your desired fixed width here */
