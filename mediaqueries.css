@@ -102,7 +102,7 @@
     display: flex;
   }
   .project-img {
-    width: 100%; /* Set a fixed width for smaller screens */
+    width: 90%; /* Set a fixed width for smaller screens */
     max-width: 300px; /* Optional: Set a maximum width to maintain image quality */
     height: auto;
     display: block;
