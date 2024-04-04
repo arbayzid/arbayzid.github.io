@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 50px) {
   #contact,
   footer {
     height: 40vh;
@@ -104,14 +104,14 @@
   }
   .details-container {
     text-align: center;
-    width: 360px; /* Set your desired fixed width here */
+    width: 330px; /* Set your desired fixed width here */
   }
   .experience-details-container .article-container {
-    width: 360px; /* Set your desired fixed width here */
+    width: 330px; /* Set your desired fixed width here */
   }
   .project-img {
     border-radius: 0.75rem;
-    width: 340px;
+    width: 320px;
     height: 200px;
     display: block; /* Ensures it behaves as a block element */
     margin: 0 auto; /* Centers the image horizontally */
