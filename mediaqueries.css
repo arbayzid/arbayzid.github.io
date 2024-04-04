@@ -106,30 +106,4 @@
     text-align: center;
     width: 330px; /* Set your desired fixed width here */
   }
-  .experience-details-container .article-container {
-    width: 330px; /* Set your desired fixed width here */
-  }
-  .project-img {
-    border-radius: 0.75rem;
-    width: 320px;
-    height: 200px;
-    display: block; /* Ensures it behaves as a block element */
-    margin: 0 auto; /* Centers the image horizontally */
-  }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container,
-  .section__pic-container {
-    width: 100%; /* Full width */
-    max-width: 100%; /* Ensure it doesn't exceed the screen width */
-  }
-
-  .details-container,
-  .experience-details-container .article-container {
-    width: 90%; /* Adjust as needed */
-    max-width: 90%; /* Ensure it doesn't exceed the screen width */
-    margin: 0 auto; /* Center the container */
-  }
-}
-  
 }
