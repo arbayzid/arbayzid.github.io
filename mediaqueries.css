@@ -106,12 +106,12 @@
     text-align: center;
   }
   .experience-details-container .article-container {
-    width: 400px; /* Set your desired fixed width here */
+    width: 380px; /* Set your desired fixed width here */
   }
   .project-img {
     border-radius: 0.75rem;
-    width: 400px;
-    height: 300px;
+    width: 360px;
+    height: 230px;
     display: block; /* Ensures it behaves as a block element */
     margin: 0 auto; /* Centers the image horizontally */
   }
