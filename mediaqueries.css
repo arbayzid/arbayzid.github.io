@@ -1,12 +1,13 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    /* height: 98vh; */
+    margin-bottom: 1rem;
   }
-  .about-containers {
+  /* .about-containers {
     flex-wrap: wrap;
+    width: auto;
   }
-}
+} */
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -43,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   #contact,
   footer {
     height: 40vh;
@@ -64,6 +65,11 @@
   .btn-container {
     flex-wrap: wrap;
   }
+
+  .about-containers {
+    justify-content: center;
+  }
+
   .contact-info-container {
     margin: 0;
   }
@@ -97,10 +103,17 @@
     text-align: justify;
   }
   .details-container {
-    width: 100%; /* Full width on small screens */
+    text-align: center;
   }
-
+  .experience-details-container .article-container {
+    width: 400px; /* Set your desired fixed width here */
+  }
   .project-img {
-    width: 100%; /* Full width for images on small screens */
+    border-radius: 0.75rem;
+    width: 400px;
+    height: 300px;
+    display: block; /* Ensures it behaves as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
   }
+  
 }

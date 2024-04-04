@@ -199,12 +199,14 @@ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
+  /* box-sizing: border-box; */
+  /* min-height: fit-content; */
 }
 
 .section-container {
   display: flex;
+  gap: 4rem;
+  height: 90%;
 }
 
 /* PROFILE SECTION */
@@ -212,8 +214,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  gap: 8rem;
+  height: 85vh;
 }
 
 .section__pic-container {
@@ -315,6 +317,8 @@ section {
 
 #about {
   position: relative;
+  height: auto;
+  padding-bottom: 2rem;
 }
 
 .about-containers {
@@ -333,41 +337,40 @@ section {
   display: flex;
 }
 
-.about-pic {
+/* .about-pic {
   border-radius: 2rem;
-}
+} */
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  right: -2.5rem;
+  bottom: 1.5rem;
 }
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
   background: var(--primary-color-2);
-  border-radius: 2rem;
+  border-radius: 0.75rem;
   border: var(--button-border);
   border-color: var(--container-border);
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
 
-.section__pic-container {
+
+/* .section__pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
-}
+} */
 
 /* EXPERIENCE SECTION */
 
 #experience {
   position: relative;
+  height: auto;
+  padding-bottom: 2rem;
 }
 
 .experience-sub-title {
@@ -408,25 +411,22 @@ article .icon {
 #projects {
   position: relative;
   height: auto;
-  min-height: 100vh;
   padding-bottom: 2rem;
   margin: 0 10rem; /* Adjusted margin to match other sections */
   box-sizing: border-box; /* Ensuring padding and border are included in the width */
-  justify-content: center;
-}
-.about-container {
-  justify-content: center;
-}
-.color-container {
-  border-color: var(--container-border);
-  background: var(--primary-color-2);
-  justify-content: center;
 }
 
+/* .color-container {
+  border-color: var(--container-border);
+  background: var(--primary-color-2);
+} */
+
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border-radius: 0.75rem;
+  width: 500px;
+  height: 350px;
+  display: block; /* Ensures it behaves as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
 }
 
 .project-title {
@@ -444,24 +444,21 @@ article .icon {
 #certifications {
   position: relative;
   height: auto;
-  min-height: 100vh;
   padding-bottom: 2rem;
   margin: 0 10rem; /* Adjusted margin to match other sections */
   box-sizing: border-box; /* Ensuring padding and border are included in the width */
-  justify-content: center;
 }
 
 .color-container {
   border-color: var(--container-border);
   background: var(--primary-color-2);
-  justify-content: center;
 }
 
-.project-img {
+/* .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-}
+} */
 
 .project-title {
   margin: 1rem;
@@ -479,18 +476,19 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
-}
+  height: auto;
 
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 0.75rem;
   border: var(--button-border);
   border-color: var(--container-border);
   background: var(--background-color);
   margin: 2rem auto;
   padding: 0.5rem;
+  width: auto;
+  gap: 8rem;
 }
 
 .contact-info-container {
