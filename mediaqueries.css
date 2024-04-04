@@ -1,7 +1,10 @@
-/* Media Queries */
 @media screen and (max-width: 1400px) {
   #profile {
-    margin-bottom: 1rem;
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
   }
 }
 
@@ -40,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   #contact,
   footer {
     height: 40vh;
@@ -60,9 +63,6 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
-  }
-  .about-containers {
-    justify-content: center;
   }
   .contact-info-container {
     margin: 0;
@@ -95,9 +95,5 @@
   }
   .text-container {
     text-align: justify;
-  }
-  .details-container {
-    text-align: center;
-    width: 330px; /* Set your desired fixed width here */
   }
 }
