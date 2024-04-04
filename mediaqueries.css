@@ -106,7 +106,7 @@
     text-align: center;
   }
   .experience-details-container .article-container {
-    width: 380px; /* Set your desired fixed width here */
+    width: auto; /* Set your desired fixed width here */
   }
   .project-img {
     border-radius: 0.75rem;
