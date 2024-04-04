@@ -1,13 +1,9 @@
+/* Media Queries */
 @media screen and (max-width: 1400px) {
   #profile {
-    /* height: 98vh; */
     margin-bottom: 1rem;
   }
-  /* .about-containers {
-    flex-wrap: wrap;
-    width: auto;
-  }
-} */
+}
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -65,11 +61,9 @@
   .btn-container {
     flex-wrap: wrap;
   }
-
   .about-containers {
     justify-content: center;
   }
-
   .contact-info-container {
     margin: 0;
   }
