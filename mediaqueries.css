@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 50px) {
+@media screen and (max-width: 500px) {
   #contact,
   footer {
     height: 40vh;
@@ -116,5 +116,20 @@
     display: block; /* Ensures it behaves as a block element */
     margin: 0 auto; /* Centers the image horizontally */
   }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container,
+  .section__pic-container {
+    width: 100%; /* Full width */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+  }
+
+  .details-container,
+  .experience-details-container .article-container {
+    width: 90%; /* Adjust as needed */
+    max-width: 90%; /* Ensure it doesn't exceed the screen width */
+    margin: 0 auto; /* Center the container */
+  }
+}
   
 }
