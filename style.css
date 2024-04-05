@@ -44,6 +44,11 @@ h3 {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 html {
@@ -143,7 +148,7 @@ nav a:hover {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 0rem;
   background-color: var(--primary-color);
   width: fit-content;
   max-height: 0;
@@ -196,36 +201,33 @@ nav a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-}
-
-.section-container {
-  display: flex;
-  gap: 4rem;
-  height: 90%;
+  position: relative;
+  height: auto;
+  margin: 0 6rem;
+  padding-bottom: 2rem;
 }
 
 /* PROFILE SECTION */
 
 #profile {
   display: flex;
-  justify-content: center;
-  gap: 8rem;
-  height: 85vh;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 370px;
+  width: 370px;
   margin: auto 0;
 }
 
 .section__text {
   align-self: center;
   text-align: center;
+  margin: 4rem 0;
 }
 
 .section__text p {
@@ -237,7 +239,7 @@ section {
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -307,26 +309,18 @@ section {
   background: var(--secondary-color);
 }
 
-.btn-container {
-  gap: 1rem;
-}
-
 /* ABOUT SECTION */
 
-#about {
-  position: relative;
-  height: auto;
-  padding-bottom: 2rem;
-}
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .about-details-container {
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -337,26 +331,20 @@ section {
 
 .arrow {
   position: absolute;
-  right: -2.5rem;
-  bottom: 1.5rem;
+  right: -1rem;
+  bottom: 2rem;
 }
 
 .details-container {
-  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
   flex: 1;
   background: var(--primary-color-2);
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   border: var(--button-border);
   border-color: var(--container-border);
   text-align: center;
-}
-
-/* EXPERIENCE SECTION */
-
-#experience {
-  position: relative;
-  height: auto;
-  padding-bottom: 2rem;
 }
 
 .experience-sub-title {
@@ -366,17 +354,10 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
 }
@@ -392,22 +373,13 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
-
-#projects {
-  position: relative;
-  height: auto;
-  padding-bottom: 2rem;
-  margin: 0 10rem; /* Adjusted margin to match other sections */
-  box-sizing: border-box; /* Ensuring padding and border are included in the width */
-}
 
 .project-img {
-  border-radius: 0.75rem;
-  margin: 0 auto; /* Centers the image horizontally */
-  max-width: 100%; /* Ensure image does not exceed container width */
-  height: auto; /* Allow image to adjust height proportionally */
-  display: block; /* Ensures block layout */
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 350px;
+  width: 550px;
 }
 
 .project-title {
@@ -418,21 +390,6 @@ article .icon {
 .project-btn {
   color: var(--secondary-color);
   border-color: var(--container-border);
-}
-
-/* Certifications SECTION */
-
-#certifications {
-  position: relative;
-  height: auto;
-  padding-bottom: 2rem;
-  margin: 0 10rem; /* Adjusted margin to match other sections */
-  box-sizing: border-box; /* Ensuring padding and border are included in the width */
-}
-
-.color-container {
-  border-color: var(--container-border);
-  background: var(--primary-color-2);
 }
 
 .project-title {
@@ -447,32 +404,20 @@ article .icon {
 
 /* CONTACT */
 
-#contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: auto;
-}
-
 .contact-info-upper-container {
   display: flex;
-  justify-content: center;
-  border-radius: 0.75rem;
+  justify-content: space-around;
+  border-radius: 0.5rem;
   border: var(--button-border);
   border-color: var(--container-border);
   background: var(--background-color);
-  margin: 2rem auto;
-  padding: 0.5rem;
-  width: auto;
-  gap: 4rem;
-}
+} 
 
 .contact-info-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.5rem;
-  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .contact-info-container p {
