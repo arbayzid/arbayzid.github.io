@@ -345,6 +345,7 @@ section {
 .details-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 1rem;
   flex: 1;
   background: var(--primary-color-2);
