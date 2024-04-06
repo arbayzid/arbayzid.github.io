@@ -100,6 +100,9 @@ a {
   text-decoration-color: var(--primary-color);
 }
 
+/* Ahmadur Rashid Bayzid
+linkedin.com/in/arbayzid*/
+
 a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -120,6 +123,8 @@ nav a:hover {
   cursor: default;
 }
 
+/* Ahmadur Rashid Bayzid
+linkedin.com/in/arbayzid*/
 /* HAMBURGER MENU */
 
 #hamburger-nav {
